@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  
+  textarea{
+    resize: none;
+    color: #000000;
+    
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  
+  .jumbotron {
+    text-align: center;
+    background-color: pink;
+    color:green;
+    border-radius: 0;
+    border-bottom: 10px solid darkgray;
+  }
+  
+  
+  .row {
+    height: 70px;
+    border-top: 1px solid white;
+    border-radius: 15px;
+  }
+  
+  
+  .dividerSolid {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px solid #000000;
+    padding-top: 25px;
+    text-align: center;
+  }
+  
+  
+  .past {
+    background-color: white;
+    color: grey;
+  }
+  
+  .present {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .future {
+    background-color: plum;
+    color: white;
+  }
+  
+  
+  .saveBtn {
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    border-radius: 15px;
+    background-color: green;
+    color:blue;
+  }
+ 
+  .saveBtn:hover {
+    font-size: 30px;
+    transition: all .3s ease-in-out;
+  }
+  
+  #currentDay {
+    color: white;
+    background: blue;
+    border-radius: 15px;
+    padding: 5px;
+  }
